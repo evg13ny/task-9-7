@@ -7,3 +7,22 @@
     text-align: end;
     font-size: x-large;
 }
+
+.btn {
+    border: 0;
+    background-color: Gainsboro;
+    color: black;
+}
+
+#inputWindow {
+    background-color: LightCyan;
+    color: Goldenrod;
+}
+
+#calc {
+    background-color: PowderBlue;
+}
+
+body {
+    background-color: Beige;
+}
