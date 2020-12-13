@@ -130,48 +130,48 @@ document.getElementById('btn_calc').addEventListener('click', function () {
     if (operation === 'sum') {
         const secondOperand = parseFloat(inputWindow.value);
         const result = lastOperand + secondOperand;
+        inputWindow.value = result;
         historyWindow.value += lastOperand + ' + ' + secondOperand + ' = ' + result + '\n';
         lastOperand = null;
         secondOperand = null;
         operation = 0;
-        inputWindow.value = result;
     }
 
     if (operation === 'def') {
         const secondOperand = parseFloat(inputWindow.value);
         const result = lastOperand - secondOperand;
+        inputWindow.value = result;
         historyWindow.value += lastOperand + ' - ' + secondOperand + ' = ' + result + '\n';
         lastOperand = null;
         secondOperand = null;
         operation = 0;
-        inputWindow.value = result;
     }
 
     if (operation === 'multipl') {
         const secondOperand = parseFloat(inputWindow.value);
         const result = lastOperand * secondOperand;
+        inputWindow.value = result;
         historyWindow.value += lastOperand + ' * ' + secondOperand + ' = ' + result + '\n';
         lastOperand = null;
         secondOperand = null;
         operation = 0;
-        inputWindow.value = result;
     }
 
     if (operation === 'split') {
         const secondOperand = parseFloat(inputWindow.value);
         const result = lastOperand / secondOperand;
+        inputWindow.value = result;
         historyWindow.value += lastOperand + ' / ' + secondOperand + ' = ' + result + '\n';
         lastOperand = null;
         secondOperand = null;
         operation = 0;
-        inputWindow.value = result;
     }
 
     if (operation === 'squar') {
         const result = Math.sqrt(lastOperand);
+        inputWindow.value = result;
         historyWindow.value += '√ ' + lastOperand + ' = ' + result + '\n';
         lastOperand = null;
         operation = 0;
-        inputWindow.value = result;
     }
 })
