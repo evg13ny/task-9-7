@@ -11,18 +11,27 @@
 .btn {
     border: 0;
     background-color: Gainsboro;
-    color: black;
+    color: Black;
 }
 
 #inputWindow {
     background-color: LightCyan;
     color: Goldenrod;
+    margin-bottom: 10px;
 }
 
 #calc {
     background-color: PowderBlue;
+    border-color: Gray;
 }
 
 body {
     background-color: Beige;
+}
+
+#historyWindow {
+    background-color: LightGreen;
+    font-size: 85%;
+    margin-top: 10px;
+    color: Black;
 }
